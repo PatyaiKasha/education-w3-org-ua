@@ -1,0 +1,53 @@
+body {
+    background: #719EBB;
+    color: #1A2853;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bolder;
+}
+
+
+.inner-head {
+    min-height: 150px;
+    background: url(../img/masthead.png) no-repeat;
+    background-size: cover;
+
+    .header-logo {
+        margin-top: calc(150px/2 - 67px/2);
+    }
+    h2 {
+        color: #7E8285;
+    }
+}
+
+.inner-main-top,
+.inner-main-middle,
+.inner-main-bottom,
+footer {
+    margin-top: 24px;
+}
+
+.inner-main-top {
+    background: #DFE6EC;
+}
+
+
+.wrapper {
+    background: #fff;
+}
+
+
+.inner-footer {
+    background: #DFE6EC;
+    margin-bottom: 16px;
+    padding-top: 10px;
+    line-height: 2em;
+
+    b {}
+}
