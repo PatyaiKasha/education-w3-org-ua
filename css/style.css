@@ -17,24 +17,70 @@ h6 {
   .inner-head .header-logo {
     margin-top: calc(150px/2 - 67px/2); }
   .inner-head h2 {
-    color: #7E8285; }
+    color: #7E8285;
+    font-size: 12px;
+    letter-spacing: 11px;
+    text-transform: uppercase; }
 
 .inner-main-top,
 .inner-main-middle,
 .inner-main-bottom,
 footer {
-  margin-top: 24px; }
+  margin-top: 24px;
+  line-height: 2em; }
 
 .inner-main-top {
-  background: #DFE6EC; }
+  background: #DFE6EC;
+  padding: 16px 0; }
+  .inner-main-top h2 {
+    margin-top: 0; }
+  .inner-main-top ul {
+    margin-bottom: 0; }
+  .inner-main-top .modal-window {
+    position: absolute;
+    right: 16px;
+    z-index: 999;
+    box-shadow: 0px 4px 20px 5px #C1BBBB; }
+    .inner-main-top .modal-window .call {
+      background: #CD1920;
+      color: #fff;
+      padding: 8px; }
+  .inner-main-top .forms {
+    background: #fff;
+    border: 5px solid #DFE6EC;
+    border-top: none;
+    padding: 8px 32px 8px 16px; }
+    .inner-main-top .forms p {
+      color: #CD1920; }
+    .inner-main-top .forms .form-group {
+      position: relative; }
+      .inner-main-top .forms .form-group .glyphicon {
+        position: absolute;
+        right: -14px;
+        top: 5px;
+        font-size: 8px;
+        color: #CD1920; }
+    .inner-main-top .forms .btn {
+      margin: 16px 0 16px 0;
+      width: 100%;
+      font-weight: bolder;
+      font-size: 18px; }
 
 .wrapper {
-  background: #fff; }
+  background: #fff;
+  box-shadow: 0 0 15px; }
 
 .inner-footer {
   background: #DFE6EC;
   margin-bottom: 16px;
-  padding-top: 10px;
-  line-height: 2em; }
+  padding-top: 10px; }
+
+.footer-about {
+  margin: 24px 0; }
+  .footer-about a {
+    color: #DEE5EB;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 8px; }
 
 /*# sourceMappingURL=style.css.map */

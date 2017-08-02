@@ -12,7 +12,6 @@ h6 {
     font-weight: bolder;
 }
 
-
 .inner-head {
     min-height: 150px;
     background: url(../img/masthead.png) no-repeat;
@@ -23,6 +22,9 @@ h6 {
     }
     h2 {
         color: #7E8285;
+        font-size: 12px;
+        letter-spacing: 11px;
+        text-transform: uppercase;
     }
 }
 
@@ -31,23 +33,73 @@ h6 {
 .inner-main-bottom,
 footer {
     margin-top: 24px;
+    line-height: 2em;
 }
 
 .inner-main-top {
     background: #DFE6EC;
+    padding: 16px 0;
+    h2 {
+        margin-top: 0;
+    }
+    ul {
+        margin-bottom: 0;
+    }
+    .modal-window {
+        position: absolute;
+        right: 16px;
+        z-index: 999;
+        box-shadow: 0px 4px 20px 5px #C1BBBB;
+        .call {
+            background: #CD1920;
+            color: #fff;
+            padding: 8px;
+        }
+    }
+    .forms {
+        background: #fff;
+        border: 5px solid #DFE6EC;
+        border-top: none;
+        padding: 8px 32px 8px 16px;
+        p {
+            color: #CD1920;
+        }
+        .form-group {
+            position: relative;
+            .glyphicon {
+                position: absolute;
+                right: -14px;
+                top: 5px;
+                font-size: 8px;
+                color: #CD1920;
+            }
+        }
+        .btn {
+            margin: 16px 0 16px 0;
+            width: 100%;
+            font-weight: bolder;
+            font-size: 18px;
+        }
+    }
 }
-
 
 .wrapper {
     background: #fff;
+    box-shadow: 0 0 15px;
 }
-
 
 .inner-footer {
     background: #DFE6EC;
     margin-bottom: 16px;
     padding-top: 10px;
-    line-height: 2em;
+}
 
-    b {}
+.footer-about {
+    margin: 24px 0;
+    a {
+        color: #DEE5EB;
+        cursor: pointer;
+        display: block;
+        margin-bottom: 8px;
+    }
 }
