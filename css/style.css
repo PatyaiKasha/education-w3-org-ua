@@ -66,6 +66,9 @@ footer {
       font-weight: bolder;
       font-size: 18px; }
 
+.inner-main-bottom img {
+  margin: 0 auto; }
+
 .wrapper {
   background: #fff;
   box-shadow: 0 0 15px; }
